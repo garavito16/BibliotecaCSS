@@ -1,0 +1,152 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row > div {
+    background-color: cyan;
+    padding: 20px 0px;
+    /* padding-left: 20px; */
+    /*margin: 0px 5px; */
+    margin: 10px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col2 {
+    flex: 2
+}
+
+.col3 {
+    flex: 3
+}
+
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 10px;
+    background-color: gray;
+}
+
+.nav-title {
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links > li {
+    padding: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn, #enviar {
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: steelblue;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px;
+}
+
+.fotito {
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 1.0em;
+}
+
+.icono {
+    width: 25px;
+    margin-right: 0.3em;
+}
+
+.misDatos {
+    margin: 1.5em 0em;
+}
+
+.datos{
+    display: flex;
+    margin-bottom: 1.0em;
+}
+
+.datos th, .datos td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.datos th {
+    background-color: green;
+    padding: 1.5em;
+}
+
+.datos td {
+    padding: 0.8em 1.5em;
+}
+
+.datos h2 {
+    padding: 1.0em 0em;
+}
+
+#formulario > div {
+    padding-top: 1.0em;
+    display: flex;
+}
+
+.seccion1, .seccion2, .letra {
+    flex:1;
+}
+
+.campo {
+    flex: 3;
+}
+
+.seccion1 {
+    padding-right: 1.0em;
+}
+
+#botoncito {
+    position: relative;
+}
+
+#enviar {
+    position:absolute;
+    right: 0;
+}
+
+.seccion3{
+    margin-top: 1.0em;
+    display: flex;
+}
+
+.seccion3 > div {
+    display: flex;
+    padding-right: 1.5em;
+    align-items: center;
+}
